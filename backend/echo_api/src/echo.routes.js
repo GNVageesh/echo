@@ -87,7 +87,7 @@ router.post("/create", async (req, res) => {
     },
   });
 
-  res.status(200).json(createItem);
+  res.status(201).json(createItem);
 });
 
 // PUT: update by id
